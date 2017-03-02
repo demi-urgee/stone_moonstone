@@ -11,13 +11,14 @@ head {
   border-width: 5px;
   color: red
 }
-
+/* -------------- NAV --------------*/
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     color: white
+    width: 50%;
 }
 
 ul{
