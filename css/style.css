@@ -18,7 +18,7 @@ ul {
     padding: 0;
     overflow: hidden;
     color: white
-    width: 50%;
+
 }
 
 ul{
@@ -31,4 +31,10 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+/*------------BODY ----------------*/
+body  {
+    background-image: url("../images/landingphoto.lpg");
+    background-color: #cccccc;
 }
