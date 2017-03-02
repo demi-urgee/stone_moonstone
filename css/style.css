@@ -13,5 +13,5 @@ head {
 }
 
 col-sm-4 nav{
-    display: inline;
+    float: left;
 }
