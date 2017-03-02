@@ -51,6 +51,26 @@ body {
     color: red
 }
 
+.my-title {
+  position: absolute;
+  bottom: 400px;
+  right: 650px;
+  color: white ;
+
+}
+
 title {
 text-align: center;
+}
+
+/*ABOUT US*/
+.container-fluid about-body {
+  background-color: black
+}
+  .col-sm-12 {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    border: 3px solid #73AD21;
+    padding: 10px;
 }
