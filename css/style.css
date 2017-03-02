@@ -11,3 +11,7 @@ head {
   border-width: 5px;
   color: red
 }
+
+li {
+    display: inline;
+}
