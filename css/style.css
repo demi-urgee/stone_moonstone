@@ -61,7 +61,7 @@ body {
   color: white;
   text-align: center;
   font-size: 100px;
-  font-family: "Impact", Helvetica, serif;
+  font-family: "Impact", Helvetica, sans-serif;
 
   }
 
@@ -73,14 +73,28 @@ body {
   color:white;
   font-size: 75px;
   text-align: center;
-  padding-top: 25px
+  padding-top: 10px;
+  font-family: "Impact", Helvetica, sans-serif;
 
 }
 .about-body {
-  position: absolute;
-  right: 300px;
   width: 300px;
+  padding-left: 500px;
   padding: 10px;
   color: white;
-  text-align: center;
+  float: right;
+  height: 300px;
+  width: 300px;
+  top: 40%;
+  left: 50%;
+  position: absolute;
+  font-family: "Helvetica", sans-serif;
+
+}
+
+.about-image {
+  float: left;
+  padding-left: 500px;
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
