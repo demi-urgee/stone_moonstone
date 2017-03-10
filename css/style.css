@@ -8,6 +8,8 @@
     color: white;
     text-align: center;
     padding-top: 20px;
+    font-family: "Courier New", Helvetica, sans-serif;
+
 }
 
 .nav a{
@@ -15,16 +17,12 @@
 }
 
 
-.h1 {
+/*.h1 {
     color: white;
     font-size: 24px;
     text-decoration-line: none;
     background-color: grey;
 
-}
-
-/*a:hover {
-    color: hotpink;
 }*/
 
 a:link, a:visited {
@@ -61,7 +59,7 @@ body {
   color: white;
   text-align: center;
   font-size: 100px;
-  font-family: "Impact", Helvetica, sans-serif;
+  font-family: "Courier New", Helvetica, sans-serif;
 
   }
 
@@ -74,7 +72,7 @@ body {
   font-size: 75px;
   text-align: center;
   padding-top: 10px;
-  font-family: "Impact", Helvetica, sans-serif;
+  font-family: "Courier New", Helvetica, sans-serif;
 
 }
 .about-body {
@@ -95,6 +93,82 @@ body {
 .about-image {
   float: left;
   padding-left: 500px;
-  padding-top: 75px;
-  padding-bottom: 75px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+/*-----------MENU-----------------*/
+/*SUB NAV*/
+
+.sub-nav {
+
+    margin: 0;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.sub-nav a {
+  padding-right: 20px;
+  font-family: "Courier New", Helvetica, sans-serif;
+}
+
+.sub-nav a:link {
+  font-size: 18px;
+}
+
+.menu-header {
+  color:grey;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Courier New", Helvetica, sans-serif;
+
+}
+
+.header-bar {
+    height: 1px;
+    width: 750px;
+    background: grey;
+    margin: auto;
+}
+
+.menu-col {
+  margin: auto;
+  width: 400px;
+
+}
+
+.menu-col h1 {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  font-family: "Courier New", Helvetica, sans-serif;
+  font-weight: lighter;
+  text-decoration: underline;
+}
+
+.menu-col h2 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-family: "Courier New", Helvetica, sans-serif;
+  font-size: 24px;
+
+}
+
+.menu-col h3 {
+  text-align: center;
+  color: white;
+  font-family: "Courier New", Helvetica, sans-serif;
+  font-size: 18px;
+
+}
+
+.menu-col p {
+  text-align: center;
+  color: white;
+  font-family: "Courier New", Helvetica, sans-serif;
+
 }
