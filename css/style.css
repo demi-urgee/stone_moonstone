@@ -43,6 +43,7 @@ body {
     background-attachment: fixed;
     background-position: 0px 0px;
     background-size: cover;
+    padding-bottom: 20px;
 }
 
 .landing-background{
@@ -75,7 +76,7 @@ body {
   font-family: "Courier New", Helvetica, sans-serif;
 
 }
-.about-body {
+.about-right {
   width: 300px;
   padding-left: 500px;
   padding: 10px;
@@ -90,11 +91,30 @@ body {
 
 }
 
-.about-image {
-  float: left;
-  padding-left: 500px;
-  padding-top: 80px;
-  padding-bottom: 80px;
+.about-left {
+float: left;
+padding-left:500px;
+padding-top: 60px;
+font-family: "Helvetica", sans-serif;
+}
+.about-left h2{
+  font-size: 20px;
+  padding-top: 6px;
+  color: grey;
+ }
+ .about-left h3{
+   font-size: 14px;
+   padding-top: 0px;
+   color: white;
+  }
+
+.about-right h1{
+  color: grey;
+}
+.about-right h2 {
+  font-size: 20px;
+  padding-top: 90px;
+  color: grey;
 }
 
 /*-----------MENU-----------------*/
